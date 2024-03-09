@@ -39,8 +39,6 @@ config.services = [
     'appium',
     {
       args: {
-        address: 'localhost',
-        port: 4723,
         relaxedSecurity: true,
       },
       logPath: './',

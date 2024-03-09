@@ -1,16 +1,3 @@
-/**
- * Untuk menjalankan appium inspector
- * 1. Nyalakan emulator pada android studio
- * 2. sambungkan koneksi pada port appium dengan syntax : Appium -p 4724
- * 3. buka android inspector dan klik start session
- *
- * Untuk menjalankan testing :
- * nyalakan port dengan syntax : appium -p 4723
- * pada terminal tuliskan npx wdio
- *
- * gunakan npx kill-port 4723  untuk kill port yang sedang digunakan
- */
-
 describe('Android Elements Tests', () => {
   it('Find element by accessibility id', async () => {
     // find element by accessibility id with (~) sign
